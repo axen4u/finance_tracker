@@ -2,8 +2,6 @@ import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
 import { Wallet, Check, Crown, ArrowLeft, Sparkles, MessageCircle } from "lucide-react"
 
-const WA_NUMBER = "62895329851723"
-
 const plans = [
   {
     name: "Gratis",
@@ -34,7 +32,7 @@ const plans = [
       "Pengingat tagihan",
     ],
     cta: "Upgrade Sekarang",
-    to: `https://wa.me/${62895329851723}?text=Halo%2C%20saya%20mau%20upgrade%20Premium%20Catat.Duit`,
+    to: `https://wa.me/62895329851723?text=Halo%2C%20saya%20mau%20upgrade%20Premium%20Catat.Duit`,
     featured: true,
   },
 ]
